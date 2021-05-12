@@ -4,9 +4,9 @@ const Footer = () => {
     return (
         <div className="footer">
             <li>
-                <ul>Nous contacter</ul>
+                <ul>Contact</ul>
+                <ul>Cgu</ul>
                 <ul>A propos</ul>
-                <ul>Conditions Générales d'Utilisation</ul>
             </li>
         </div>
     )

@@ -1,2 +1,8 @@
+@import "./settings/general";
+@import "./settings/vars";
+
 @import "./pages/home";
 @import "./pages/profil";
+
+@import "./components/navbar";
+@import "./components/footer";

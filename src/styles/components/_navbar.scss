@@ -1,0 +1,21 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+  box-shadow: $color-pink 0px 3px 10px;
+  .navbar-logo {
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  .navbar-title {
+    color: $color-blue;
+    text-shadow: $color-pink -1px 1px 1px;
+    font-family: $play;
+  }
+}

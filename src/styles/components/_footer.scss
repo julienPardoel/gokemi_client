@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    box-shadow: $color-pink 0px -3px 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: $color-blue;
+    padding: 10px;
+    li {
+        list-style-type: none;
+        ul {
+            cursor: pointer;
+        }
+        ul:hover{
+            color: $color-pink;
+        }
+    }
+}

@@ -5,8 +5,8 @@ import {
   Switch,
 } from "react-router-dom";
 
-import Home from './pages/Home';
-import Profil from './pages/Profil';
+import Home from "./pages/Home";
+import Profil from "./pages/Profil";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/profil" exact component={Profil} />
-          <Redirect to="/home" />
+          <Redirect to="/" />
         </Switch>
       </Router>
     </div>
